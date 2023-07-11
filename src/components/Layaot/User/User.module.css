@@ -1,0 +1,8 @@
+.user {
+    display: flex;
+    color: #fff
+}
+
+.user button {
+    margin-left: 10px;
+}

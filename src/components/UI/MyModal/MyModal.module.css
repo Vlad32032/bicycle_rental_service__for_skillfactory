@@ -1,0 +1,28 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgb(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.myModalContent {
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    min-width: 258px;
+    box-shadow: 2px 2px 300px rgb(255, 136, 0);
+}
+
+.myModal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myModal div{
+    color: black;
+}
